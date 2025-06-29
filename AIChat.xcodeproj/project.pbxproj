@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37020AF32E114BA100697C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37020AF22E114BA100697C57 /* LaunchScreen.storyboard */; };
 		374893852E1143EF00899602 /* AIChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374893832E1143EF00899602 /* AIChatTests.swift */; };
 		374893892E1143F300899602 /* AIChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374893862E1143F300899602 /* AIChatUITests.swift */; };
 		3748938A2E1143F300899602 /* AIChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374893872E1143F300899602 /* AIChatUITestsLaunchTests.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37020AF22E114BA100697C57 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		374893582E11437800899602 /* AIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374893662E11437900899602 /* AIChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374893702E11437900899602 /* AIChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37020AF02E114B8C00697C57 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				37020AF12E114B9200697C57 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		37020AF12E114B9200697C57 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				37020AF22E114BA100697C57 /* LaunchScreen.storyboard */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		3748934F2E11437800899602 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +128,7 @@
 		3748938F2E1143FA00899602 /* AIChat */ = {
 			isa = PBXGroup;
 			children = (
+				37020AF02E114B8C00697C57 /* Core */,
 				3748938B2E1143FA00899602 /* AIChat.entitlements */,
 				3748938C2E1143FA00899602 /* AIChatApp.swift */,
 				3748938D2E1143FA00899602 /* Assets.xcassets */,
@@ -230,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374893902E1143FA00899602 /* Assets.xcassets in Resources */,
+				37020AF32E114BA100697C57 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +446,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -466,6 +487,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
